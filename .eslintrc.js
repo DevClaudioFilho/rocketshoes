@@ -4,7 +4,7 @@ module.exports = {
     node: true,
   },
   extends: ['airbnb-base', 'prettier'],
-  plugins: ['prettier'],
+  plugins: ['prettier', 'prettier', 'react-hooks'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
@@ -19,5 +19,7 @@ module.exports = {
     'no-param-ressing': 'off',
     ' camelcase': 'off',
     'no-unsed-vars': ['error', { argsIngnorePattern: 'next' }],
+    'no-param-reassingn': 'off',
+    'no-console': ['erro', { allow: ['tron'] }],
   },
 };
